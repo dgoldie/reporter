@@ -21,7 +21,8 @@ defmodule Reporter.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:csv, "~> 3.0"}
+      {:csv, "~> 3.0"},
+      {:ex_money, "~> 5.13"}
     ]
   end
 end

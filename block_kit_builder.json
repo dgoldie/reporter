@@ -1,0 +1,70 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Sales Breakdown (Top 3 by Revenue)*\n"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":emoji Order Type"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":bullet Non-subscription: $44,777.54 (75.03%)\n:bullet Subscription: $44,777.54 (75.03%)\n"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":emoji Source / Medium"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":bullet paid_fb/cpc: $44,777.54 (75.03%)\n:bullet 5 star -most engaged - a / email: $44,777.54 (75.03%)\n:bullet 4 star - 2nd most engaged - a / email: $44,777.54 (75.03%)\n"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":emoji Discount Codes"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":bullet SECRET: $44,777.54 (75.03%)\n:bullet FREP-2Pmymt: $44,777.54 (75.03%)\n:bullet 4Hrztpo: $44,777.54 (75.03%)\n"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":emoji Payment Gateway"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":bullet Paypal: $44,777.54 (75.03%)\n:bullet Shopify: $44,777.54 (75.03%)\n:bullet Stripe: $44,777.54 (75.03%)\n"
+			}
+		},
+		{
+			"type": "divider"
+		}
+	]
+}
