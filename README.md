@@ -17,6 +17,7 @@ iex(9)> ReportCache.server_process(cache, "customer-2")
 
 ## Reader - reads data for one date, one customer
 
+alias Reporter.Reader
 full = Reader.read("sourcemedium-test-project-dataset")
 
 ### Money
@@ -28,7 +29,7 @@ money vs ex_money vs Decimal
 11.696
 4.858
 
-Are discounts applied to gross revenue?
+Are discounts applied to gross revenue? revenue = gross_revenue - discounts
 
 ### History - stores 7 days of calculated data
             - could just be a Map in a GenServer.
@@ -46,4 +47,7 @@ Are discounts applied to gross revenue?
 #### csv_file - replace hard-coded file with dynamic data
               - store seven days data in History
 
+#### Build report data in one pass
+alias Reporter.Stats
+Stats.calculate(full)
 
